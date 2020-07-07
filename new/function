@@ -2,3 +2,16 @@ Def square(x):
     return x*x
 for i in range(10):
     print(f"the square of {i} is {square(i)}")
+
+
+
+
+
+assume you have a file "functions" that defines {square}
+and then you have for i in range(10):
+                        print(f"the square of {i} is {square(i)}")
+you can import difinition from the first file,
+from functions import square
+and then you can have,
+for i in range(10):
+    print(f"the square of {i} is {square(i)}")
