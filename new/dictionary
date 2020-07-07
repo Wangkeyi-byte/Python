@@ -1,0 +1,8 @@
+houses={"Harry": "Gryffindor", "Draco": "Slytherin"}         
+    
+print(houses["Harry"])   
+
+and
+youcan
+Houses["Hermione"]="Griffindor"   
+print(houses["Hermione"])          (the dictionary is called houses)
